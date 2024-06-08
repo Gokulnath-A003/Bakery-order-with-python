@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Order</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Create Order</h1>
+    </header>
+    <div class="container">
+        <form method="post">
+            <label for="item">Item:</label>
+            <input type="text" name="item" id="item" required>
+            <br>
+            <label for="quantity">Quantity:</label>
+            <input type="number" name="quantity" id="quantity" required>
+            <br>
+            <button type="submit">Create Order</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 Bakery App</p>
+    </footer>
+</body>
+</html>

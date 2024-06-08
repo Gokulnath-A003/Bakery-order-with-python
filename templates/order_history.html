@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order History</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Your Order History</h1>
+    </header>
+    <div class="container">
+        <ul class="order-list">
+            {% for order in orders %}
+            <li>{{ order[0] }} (Quantity: {{ order[1] }})</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <footer>
+        <p>&copy; 2024 Bakery App</p>
+    </footer>
+</body>
+</html>
