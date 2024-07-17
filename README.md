@@ -1,4 +1,6 @@
 # Bakery-order-with-python
+**The project is a simple "project" which uses flask framework and "sqlite3" as database.**
+
 ![Screenshot 2024-07-17 215051](https://github.com/user-attachments/assets/4aa8b062-c008-45a9-9a7d-54d17b471741)
 
 **Order management with login credentials**
